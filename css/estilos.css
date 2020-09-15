@@ -125,14 +125,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
     height: 200px;
     border-radius: 20px;
     margin: 10px;
-    
 }
+#inicio .buscador{
+    border:solid gray 1px;
+    border-radius: 30px;
+    padding:0px 15px;
+    width: max-content;
+    height: max-content;
+    align-items: center;
+    text-align: center;
+}
+#inicio .p{
+    color: gray;
+    font-size: 12px ;
+    margin-bottom: 0px !important;
+}
+
+#inicio .fa-grip-lines-vertical, .fa-search{
+    color: gray;
+    font-size: 18px ;
+}
+
 .comment{
     font-size: 50px;
     width: auto;
     height: auto;
     text-align: center;
     align-items: center;
+    width: unset;
 
 }
 main a{
