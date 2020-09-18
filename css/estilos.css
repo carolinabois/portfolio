@@ -2,8 +2,7 @@
      font-family: 'montserrat', sans-serif;
  }
  h1{
-     color: rgb(83, 82, 82);
-     font-size: 38px;
+     color:rgb(68, 63, 63);
  }
  
  h2{
@@ -11,9 +10,9 @@
     font-weight: 700;
  }
  #sobre-mi {
-    background-image: url(../images/fondos/fondotriangulos.jpg);
-    background-size: 100%;
-    background-repeat: repeat;
+    
+    background-image: url(../images/fondos/leaves2.jpg);
+    background-position: left;
 
 }
 #sobre-mi .img-circle{
@@ -26,6 +25,7 @@
 #sobre-mi .img-fluid{
     max-width: 100% !important;
     height: auto !important;
+    margin-bottom: 25px;
 }
 #sobre-mi .btn{
     padding: 4px 14px !important;
@@ -33,23 +33,23 @@
 }
 
 #proyectos {
-    background-image: url(../images/fondos/Fondos-11.png);
-    background-size: 100% ;
+    background-image: url(../images/fondos/leaves2.jpg);
+    background-size: auto ;
 }
 #proyectos p{
     color: #6a6a6a;
     font-size: 18px;
 }
 .color-gradiente{
-background: rgba(181,178,230,0.74);
-background: -moz-linear-gradient(left, rgba(181,178,230,0.74) 0%, rgba(187,182,231,0.74) 21%, rgba(195,187,232,0.83) 47%, rgba(204,194,234,0.87) 62%, rgba(222,219,245,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(181,178,230,0.74)), color-stop(21%, rgba(187,182,231,0.74)), color-stop(47%, rgba(195,187,232,0.83)), color-stop(62%, rgba(204,194,234,0.87)), color-stop(100%, rgba(222,219,245,1)));
-background: -webkit-linear-gradient(left, rgba(181,178,230,0.74) 0%, rgba(187,182,231,0.74) 21%, rgba(195,187,232,0.83) 47%, rgba(204,194,234,0.87) 62%, rgba(222,219,245,1) 100%);
-background: -o-linear-gradient(left, rgba(181,178,230,0.74) 0%, rgba(187,182,231,0.74) 21%, rgba(195,187,232,0.83) 47%, rgba(204,194,234,0.87) 62%, rgba(222,219,245,1) 100%);
-background: -ms-linear-gradient(left, rgba(181,178,230,0.74) 0%, rgba(187,182,231,0.74) 21%, rgba(195,187,232,0.83) 47%, rgba(204,194,234,0.87) 62%, rgba(222,219,245,1) 100%);
-background: linear-gradient(to right, rgba(181,178,230,0.74) 0%, rgba(187,182,231,0.74) 21%, rgba(195,187,232,0.83) 47%, rgba(204,194,234,0.87) 62%, rgba(222,219,245,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', endColorstr='#dedbf5', GradientType=1 );
-}
+    background: rgba(40,52,15,1);
+background: -moz-linear-gradient(left, rgba(40,52,15,1) 0%, rgba(40,52,15,1) 0%, rgba(40,52,15,0.88) 26%, rgba(108,120,84,0.74) 54%, rgba(108,120,84,0.52) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(40,52,15,1)), color-stop(0%, rgba(40,52,15,1)), color-stop(26%, rgba(40,52,15,0.88)), color-stop(54%, rgba(108,120,84,0.74)), color-stop(100%, rgba(108,120,84,0.52)));
+background: -webkit-linear-gradient(left, rgba(40,52,15,1) 0%, rgba(40,52,15,1) 0%, rgba(40,52,15,0.88) 26%, rgba(108,120,84,0.74) 54%, rgba(108,120,84,0.52) 100%);
+background: -o-linear-gradient(left, rgba(40,52,15,1) 0%, rgba(40,52,15,1) 0%, rgba(40,52,15,0.88) 26%, rgba(108,120,84,0.74) 54%, rgba(108,120,84,0.52) 100%);
+background: -ms-linear-gradient(left, rgba(40,52,15,1) 0%, rgba(40,52,15,1) 0%, rgba(40,52,15,0.88) 26%, rgba(108,120,84,0.74) 54%, rgba(108,120,84,0.52) 100%);
+background: linear-gradient(to right, rgba(40,52,15,1) 0%, rgba(40,52,15,1) 0%, rgba(40,52,15,0.88) 26%, rgba(108,120,84,0.74) 54%, rgba(108,120,84,0.52) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', endColorstr='#6c7854', GradientType=1 );
+ }
 .card {
     background: white;
     border-radius: 15px;
@@ -77,7 +77,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
     color: gray;
 }
 #tecnologias{
-    background-color: rgba(231, 187, 173, 0.5);
+    background-color: rgba(247, 208, 196, 0.589);
 }
 
 #tecnologias img{
@@ -92,15 +92,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
 #sobre-mi h2{
     font-size: 25px;
     padding: 5px 0px;
+    color:rgb(68, 63, 63) ;
 }
 #tecnologias .card{
     align-items: center;
     margin: 10px;
 }
 
+#idiomas {
+    background-color: rgba(247, 208, 196, 0.671);
+}
+
 #idiomas i{
     color: white;
     font-size: 70px;
+}
+#idiomas h2{
+    font-size: 18px;
 }
 
 #idiomas .col-4{
@@ -118,7 +126,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
     padding: 40px 40px;
     height: 170px;
 }
-
+#experiencia {
+    background-color: rgba(247, 208, 196, 0.671);
+}
 #experiencia .col-9{
     text-align: left;
     padding: 40px 40px;
@@ -129,13 +139,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
     border-radius: 20px;
     margin: 10px;
 }
+#estudios {
+    background-color: rgba(247, 208, 196, 0.671);
+    padding: 0px 0px 20px 0px;
+}
 #inicio{
-    background-image: url(../images/fondos/fondotriangulos.jpg);
+    background-image: url(../images/fondos/leaves2.jpg);
     background-size: 100%;
-    background-repeat: repeat;
- }
+}
 #inicio .buscador{
-    border:solid gray 1px;
+    border:solid  rgb(68, 63, 63) 1px;
     border-radius: 30px;
     padding:0px 15px;
     width: max-content;
@@ -155,13 +168,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b2e6', end
 }
 
 #inicio p{
-    color: gray;
+    color:rgb(68, 63, 63);
     font-size: 18px ;
     margin-bottom: 2px !important;
     margin-top: 2px !important ;
     font-family: 'montserrat', sans-serif;
 }
-
 
 #inicio .fa-grip-lines-vertical, .fa-search{
     color: rgb(122, 121, 121);
@@ -184,8 +196,8 @@ main a{
 }
 
 #contacto {
-    background-image: url(../images/fondos/Fondos-11.png);
-    background-size: 100%;
+    background-image: url(../images/fondos/leaves2.jpg);
+    background-size: auto;
 }
 
 #contacto main {
@@ -198,9 +210,9 @@ main a{
 }
 
 nav .nav-link {
-    color: rgb(83, 82, 82);
+    color: rgb(68, 63, 63);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav .nav-link:hover{
@@ -209,14 +221,14 @@ nav .nav-link:hover{
 
 nav .active {
     font-weight: 800;
-    color: rgb(125, 133, 238);
-    border: 1px solid rgb(124, 73, 206);
+    color: rgba(91, 126, 83, 0.726);
+    border: 1px solid rgba(91, 126, 83, 0.726);
     border-radius: 25px;
 }
 
 .form-inline {
     font-weight: 800;
-    color: grey ;
+    color:  rgb(68, 63, 63);
     padding: 6px;
 }
 
@@ -225,19 +237,19 @@ nav .active {
     border-radius: 10px;
 }
 .btn {
-    border: 1px solid grey;
+    border: 1px solid rgb(68, 63, 63);
     border-radius: 20px;
     font-weight: 600;
     background-color: rgb(242, 243, 247);
     padding: 8px 18px;
     font-size: 16px;
-    color: grey;
+    color:  rgb(68, 63, 63);
 }
 
 .btn:hover {
-    border: 1px solid grey !important;
+    border: 1px solid rgba(91, 126, 83, 0.726) !important;
     border-radius: 20px !important;
-    color: rgb(125, 133, 238) !important;
+    color: rgba(91, 126, 83, 0.726) !important;
 }
 i {
     font-size: 30px;
@@ -246,16 +258,32 @@ i {
 }
 
 i:hover {
-    border: 1px solid rgb(125, 133, 238);
+    border: 1px solid rgba(51, 68, 47, 0.726);
     border-radius: 30px;
-    color: rgb(125, 133, 238);
+    color: rgba(91, 126, 83, 0.726);
     padding: 6px;
 }
 
 footer a {
-    color: rgb(83, 82, 82);
+    color:  rgb(68, 63, 63);
     text-decoration: underline;
 }
-
-
+@media (max-width:450px){
+    #inicio p, .fa-grip-lines-vertical, .fa-search{
+        font-size: 11px ;
+        margin-bottom: 1px !important;
+        margin-top: 1px !important ;
+    }
+   
+    #inicio main {
+        height: 95vh;
+        text-align: left;
+    } 
+    #proyectos p{
+        font-size: 25px;
+    }
+    #contacto footer .container{
+        margin-top: 160px;
+    }
+}
 
