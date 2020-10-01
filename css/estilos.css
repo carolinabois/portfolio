@@ -125,6 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', end
 #idiomas .col-8{
     text-align: left;
     height: 170px; 
+    padding-top: 25px;
 }
 #idiomas .col-sm{
     text-align: left;
@@ -320,11 +321,15 @@ footer a {
         margin: 15px;
     }
     #tecnologias h2 {
-        text-align: center;       
+        text-align: center;    
+         
     }
     #idiomas .col-12 {
     height: 135px;
     font-size: 15px;
+    }
+    #idiomas .col-8, #experiencia .col-9 , #estudios .col-9 {
+        padding-top: 10px !important;
     }
     #idiomas .row , #experiencia .row, #estudios .row{ 
         margin-right: 5px;
@@ -336,11 +341,16 @@ footer a {
         padding-top: 25px;
         text-align: center;
     }
-   
     #experiencia .col-12 ,#estudios .col-12 {
         font-size: 15px;
         padding: 0px;
     }
+    #experiencia h2, #estudios h2  {
+        text-align: left; 
+        padding-left: 15px;
+
+    }
+    
    
 }
 
