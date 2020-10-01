@@ -136,7 +136,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', end
 #experiencia {
     background-color: rgba(247, 208, 196, 0.671);
 }
-#experiencia .col-9{
+#experiencia .col-9 , #estudios .col-9{
     text-align: left;
     padding: 40px 40px;
 }
