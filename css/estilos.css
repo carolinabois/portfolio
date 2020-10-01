@@ -101,6 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', end
 
 #idiomas {
     background-color: rgba(247, 208, 196, 0.671);
+    background-size: 100%;
 }
 
 #idiomas i{
@@ -113,8 +114,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', end
 
 #idiomas .col-4{
     font-size: 100px;
-    height: max-content;
-    padding: 50x;
+    
     background-color: rgb(62, 7, 134);
     border-radius: 22px;
     height: 170px;
@@ -124,8 +124,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28340f', end
 }
 #idiomas .col-8{
     text-align: left;
+    height: 170px; 
+}
+#idiomas .col-sm{
+    text-align: left;
     height: 170px;
-  
+    border-radius: 20px;
+    margin: 10px;
+
 }
 #experiencia {
     background-color: rgba(247, 208, 196, 0.671);
@@ -223,7 +229,7 @@ nav .active {
     font-weight: 800;
     color: rgba(91, 126, 83, 0.726);
     border: 1px solid rgba(91, 126, 83, 0.726);
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .form-inline {
@@ -316,5 +322,27 @@ footer a {
     #tecnologias h2 {
         text-align: center;       
     }
+    #idiomas .col-12 {
+    height: 135px;
+    font-size: 15px;
+    }
+    #idiomas .row , #experiencia .row, #estudios .row{ 
+        margin-right: 5px;
+    }
+    #idiomas .col-4{
+        font-size: 50px;
+        height: 135px;
+        padding: 15px;
+        padding-top: 25px;
+        text-align: center;
+    }
+   
+    #experiencia .col-12 ,#estudios .col-12 {
+        font-size: 15px;
+        padding: 0px;
+    }
+   
 }
+
+
 

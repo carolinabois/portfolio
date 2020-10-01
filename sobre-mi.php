@@ -152,8 +152,8 @@ $pg = "sobre-mi" ;
         <section id="idiomas">
             <div class="container">
                 <div class="row py-5">
-                    <div class="card col-12 col-sm-6">
-                        <div class="row">
+                    <div class="card col-12 col-sm">
+                        <div class="row ">
                             <div class="col-4">
                                 <i class="fas fa-comment-alt"></i>
                             </diV>
@@ -167,7 +167,7 @@ $pg = "sobre-mi" ;
                             </div>
                         </div>
                     </div>
-                    <div class=" card col-12 col-sm-6  ">
+                    <div class=" card col-12 col-sm">
                         <div class="row">
                             <div class="col-4">
                                 <i class="fas fa-star"></i>
@@ -225,7 +225,7 @@ $pg = "sobre-mi" ;
                         <h2><i class="fas fa-graduation-cap"></i>Estudios</h2>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col-12 col-sm bg-white shadow">
                         <div class="col-3">
                             <img src="" alt="">
